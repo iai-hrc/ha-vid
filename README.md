@@ -14,23 +14,50 @@ The `data` folder is:
 ```
 data
 ├── view0_lh_pt
-│   ├── features
-│   ├── groundTruth
-│   ├── splits
-│   ├── mapping.txt
-├── view0_lh_aa
-│   ├── ...
-...
+│   ├──
+├── ActionRecognition
+│   ├── mmskeleton
+├── ActionSegmentation
+│   ├── data
+│   │   ├── features
+│   │   ├── view0_lh_aa
+│   │   │   ├── groundTruth
+│   │   │   ├── splits
+│   │   │   ├── mapping.txt
+│   │   ├── view0_lh_pt
+│   │   │   ├── ...
+│   │   ├── ...
+├── ObjectDetection
+│   ├── train
+│   │   ├── annotations
+│   │   ├── images
+│   ├── val
+│   │   ├── annotations
+│   │   ├── images
+├── PretrainedCheckpoints
+│   ├── ActionRecognition
+│   │   ├── i3d_flow
+│   │   ├── i3d_rgb
+│   │   ├── mvit
+│   │   ├── st_gcn
+│   │   ├── timesformer
+│   ├── ActionSegmentation
+│   │   ├── BCN
+│   │   │   ├── bcn_models
+│   │   │   ├── bgm_models
+│   │   ├── DTGRM
+│   │   ├── ms-tcn
+│   ├── ObjectDetection
+│   │   ├── dino
+│   │   ├── faster_rcnn_r50
+│   │   ├── faster_rcnn_r101
+│   │   ├── faster_rcnn_x101
+│   │   ├── yolov5_l
+│   │   ├── yolov5_s
 ```
-`view0`, `view1`, `view2` denote `side view`, `front view` and `top view`, respectively. `lh` and `rh` denote `left hand` and `right hand`, respectively. `aa` and `pt` denote `atomic action` and `primitive task`, respectively.
+`data` contains the raw data, including rgb videos, depth videos and skeleton data, the annotated data for three tasks, including Action Recognition, Action Segmentation, and Object Detection, and the checkpoints of the pretrained models for the three tasks. 
 
-Folder `features` contains the I3D features. Folder `groundTruth` contains the action annoations. Folder `splits` contains the `training.bundle` and `testing.bundle` that tell you the video lists for training and testing.
 
-## Model training and evaluation 
-The models and scripts of [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) are stored in subfolders `ms-tcn`, `DTGRM`, and `BCN`.
-
-## Checkpoints
-We provide the pretrained best checkpoints for each model in the folder `checkpoints`.
 
 ## Citation
 If you find our code useful, please cite our paper. 
@@ -46,7 +73,7 @@ If you find our code useful, please cite our paper.
 
 ## Acknowledgement
 
-We appreciate the collaborators/maintainers of the [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) repositories.
+This work was supported by The University of Auckland FRDF New Staff Research Fund (No.3720540).
 
 ## License
 HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License. The terms are :

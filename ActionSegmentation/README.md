@@ -9,8 +9,8 @@ Download the data from ..., and put data in subfolder `data`.
 The `data` folder structure should be:
 ```
 data
+├── features
 ├── view0_lh_pt
-│   ├── features
 │   ├── groundTruth
 │   ├── splits
 │   ├── mapping.txt
