@@ -6,7 +6,7 @@ This code makes use of the following packages:
 1. [`scikit-learn`](http://scikit-learn.org/stable/)
 2. [`scikit-image`](http://scikit-image.org/download)
 3. [`FilterPy`](https://github.com/rlabbe/filterpy)
-4. ['ByteTrack'](https://github.com/ifzhang/ByteTrack)
+4. [`ByteTrack`](https://github.com/ifzhang/ByteTrack)
 
 ## 1. Generate ground truth tracklets
 * Generate ground truth tracklets from the annotation file. Each time, take one video annotation file as input. 
