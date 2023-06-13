@@ -1,4 +1,4 @@
-# SORT Multi-Object Tracking for HA-ViD.
+# ByteTrack Multi-Object Tracking for HA-ViD.
 This repository has been adapted from the original [ByteTrack](https://github.com/ifzhang/ByteTrack), [SORT](https://github.com/abewley/sort), and [IKEA_ASM](https://github.com/IkeaASM/IKEA_ASM_Dataset/tree/master/part-tracking) repositories.
 
 ## Dependencies:
