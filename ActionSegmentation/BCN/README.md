@@ -49,3 +49,8 @@ If you find our code useful, please cite our paper.
 
 ## Acknowledgement
 We appreciate the collaborators/maintainers of the [BCN](https://github.com/MCG-NJU/BCN) repository.
+
+## License
+HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License. The terms are :
+* Attribution : You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* NonCommercial : You may not use the material for commercial purposes.

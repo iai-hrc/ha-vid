@@ -4,9 +4,10 @@ This repository contains scripts and models for the Action Segmentation benchmar
 We benchmark [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) on HA-ViD.
 
 ## Prepare Datasets 
-Download the data from ..., and put data in subfolder `data`.
+Please make an access request from [our website](https://iai-hrc.github.io/ha-vid) to access our data in DropBox. Find the folder `ActionSegmentation` and download the `data` inside.
 
 The `data` folder structure should be:
+
 ```
 data
 ├── features
@@ -26,7 +27,8 @@ Folder `features` contains the I3D features. Folder `groundTruth` contains the a
 The models and scripts of [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) are stored in subfolders `ms-tcn`, `DTGRM`, and `BCN`.
 
 ## Checkpoints
-We provide the pretrained best checkpoints for each model in the folder `checkpoints`.
+
+We provide the pretrained checkpoints for each model in the our DropBox, please go to folder `PretrainedCheckpoints`, download the checkpoints in `ActionSegmentation` folder and put them in the `checkpoints` folder here.
 
 ## Citation
 If you find our code useful, please cite our paper. 
@@ -45,6 +47,6 @@ If you find our code useful, please cite our paper.
 We appreciate the collaborators/maintainers of the [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) repositories.
 
 ## License
-HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License, found here. The terms are :
+HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License. The terms are :
 * Attribution : You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * NonCommercial : You may not use the material for commercial purposes.

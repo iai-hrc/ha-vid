@@ -34,6 +34,6 @@ To test the model, run `mmskl [testing config] --gpus [GPUs] --checkpoint [check
 We appreciate the collaborators/maintainers of [mmskeleton](https://github.com/open-mmlab/mmskeleton).
 
 ## License
-HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License, found here. The terms are :
+HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License. The terms are :
 * Attribution : You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * NonCommercial : You may not use the material for commercial purposes.
