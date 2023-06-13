@@ -1,9 +1,9 @@
-# Multi-Object Tracking
-This repository contains scripts and models for the Multi-Object Tracking benchmark of HA-ViD.
+# Action Recognition
+This repository contains scripts and models for the Action Recognition benchmark of HA-ViD.
 
-We benchmark [SORT](https://github.com/abewley/sort) and [ByteTrack](https://github.com/ifzhang/ByteTrack) on HA-ViD.
+We benchmark I3D, TimeSFormer, and MVITv2 using the toolbox [MMAction2](https://github.com/open-mmlab/mmaction2), ST-GCN using the toolbox [MMSkeleton](https://github.com/open-mmlab/mmskeleton), and [TSM](https://github.com/mit-han-lab/temporal-shift-module) on HA-ViD.
 
-We benchmark the algorithms on both recognition results from [Object Dtection](https://github.com/iai-hrc/ha-vid/tree/main/ObjectDetection) and the ground truth annotations. Please refer to the subfolders for the details.
+Please refer to the subfolders for the details.
 
 ## Citation
 If you find our code useful, please cite our paper. 
@@ -19,7 +19,7 @@ If you find our code useful, please cite our paper.
 
 ## Acknowledgement
 
-We appreciate the collaborators/maintainers of the [SORT](https://github.com/abewley/sort) and [ByteTrack](https://github.com/ifzhang/ByteTrack) repositories.
+We appreciate the collaborators/maintainers of the [MS-TCN](https://github.com/yabufarha/ms-tcn), [DTGRM](https://github.com/redwang/DTGRM), and [BCN](https://github.com/MCG-NJU/BCN) repositories.
 
 ## License
 HA-ViD is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License, found here. The terms are :
