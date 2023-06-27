@@ -1,5 +1,5 @@
 # [HA-ViD](https://github.com/iai-hrc/ha-vid): A Human Assembly Video Dataset for Comprehensive Assemby Knowledge Understanding
-![model](https://github.com/iai-hrc/iai-hrc.github.io/blob/main/assets/Fig1.png)
+![model](https://github.com/iai-hrc/iai-hrc.github.io/blob/main/img/havid/figure1.png)
 
 HA-ViD – the first human assembly video dataset that features representative industrial assembly scenarios, natural procedural knowledge acquisition process, and consistent human-robot shared annotations. Specifically, HA-ViD captures diverse collaboration patterns of real-world assembly, natural human behaviors and learning progression during assembly, and granulate action annotations to
 subject, action verb, manipulated object, target object, and tool. We provide 3222 multi-view, multi-modality videos (each video contains one assembly task), 1.5M frames, 96K temporal labels and 2M spatial labels.
