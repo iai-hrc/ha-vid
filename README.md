@@ -71,12 +71,13 @@ We benchmark algorithms of four tasks, and the implementation details and code c
 ## Citation
 If you find our code useful, please cite our paper. 
 ```
-@inproceedings{
-  author    = {Hao Zheng and
-               Regina Lee and
-               Yuqian Lu},
-  title     = {HA-ViD: Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding},
-  journal = {}
+@misc{zheng2023havid,
+    title={HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding}, 
+    author={Hao Zheng and Regina Lee and Yuqian Lu},
+    year={2023},
+    eprint={2307.05721},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
 
